@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 # Python 3.x
 from urllib.request import urlopen, urlretrieve
 
-URL = 'http://www.saadrana.com'
+URL = 'http://www.saadrana.com' #Replace by your URL
 OUTPUT_DIR = '.'  # path to output folder, '.' or '' uses current folder
 
 u = urlopen(URL)
